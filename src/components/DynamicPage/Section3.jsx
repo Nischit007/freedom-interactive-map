@@ -9,7 +9,7 @@ const Section3 = ({location}) => {
       <div className="bg-[#f7f9f9] min-h-[400px] mt-12 flex-wrap p-3">
         <div className="md:flex md:justify-evenly  md:gap-12 ">
           <img
-            src={`http://localhost:8000/uploads/${location.issuedDetailImage1.replace('\\', '/')}`}
+            src={`map-backend-eight.vercel.app/uploads/${location.issuedDetailImage1.replace('\\', '/')}`}
             className="md:h-60 h-54 md:w-60 w-72 ml-10 md:ml-28 mt-7 object-cover rounded-lg"
           />
           <div className="space-y-4">
@@ -33,7 +33,7 @@ const Section3 = ({location}) => {
             </a>
           </div>
           <img
-            src={`http://localhost:8000/uploads/${location.issuedDetailImage2.replace('\\', '/')}`}
+            src={`map-backend-eight.vercel.app/uploads/${location.issuedDetailImage2.replace('\\', '/')}`}
             className="h-52 w-52 object-cover mt-64 mr-28 rounded-lg lg:block hidden"
           />
         </div>
