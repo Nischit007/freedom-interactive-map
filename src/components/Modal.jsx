@@ -11,7 +11,7 @@ const Modal = ({ isOpen, onClose, location }) => {
 
   if (!isOpen || !location) return null;
 
-  const imageUrl = location.heroSectionImage ? `map-backend-eight.vercel.app/uploads/${location.heroSectionImage.replace('\\', '/')}` : 'fallback-image.jpg';
+  const imageUrl = location.heroSectionImage ? `https://map-backend-eight.vercel.app/uploads/${location.heroSectionImage.replace('\\', '/')}` : 'fallback-image.jpg';
 
   return ReactDOM.createPortal(
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 overflow-hidden">
