@@ -39,7 +39,7 @@ function MapArea({ SendDistrictDetails }) {
     useEffect(() => {
         const fetchDistricts = async () => {
             try {
-                const fetchdata = await axios.get('http://localhost:8000/api/locations');
+                const fetchdata = await axios.get('map-backend-eight.vercel.app/api/locations');
                 const arr = fetchdata.data;
 
                 const tempFormattedArr = arr.map(item => ({
