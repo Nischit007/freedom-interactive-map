@@ -4,7 +4,7 @@ import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
 import L from 'leaflet';
 import axios from 'axios';
 import Modal from './Modal'; // Adjust the path as needed
-import mapicon from '../images/image.png';
+import mapicon from '../images/Location icon.png';
 import './styles.css';
 
 const LeafletMap = ({ district, momentIssue, actors, latitude, longitude }) => {
@@ -92,7 +92,7 @@ const LeafletMap = ({ district, momentIssue, actors, latitude, longitude }) => {
       // Create custom icon
       const customIcon = L.icon({
         iconUrl: mapicon,
-        iconSize: [22, 22],
+        iconSize: [50, 50],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32],
       });
