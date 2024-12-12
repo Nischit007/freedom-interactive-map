@@ -29,7 +29,7 @@ const MarqueeItem = ({ images, from, to }) => {
         {images.map((image, index) => (
           <img
             className="md:h-60 md:w-80 h-48 w-48 object-cover rounded-lg pr-4" // Same adjustments for the second row
-            src={`http://localhost:8000/uploads/${image.replace('\\', '/')}`}
+            src={`map-backend-eight.vercel.app/uploads/${image.replace('\\', '/')}`}
             alt={`Marquee Image ${index + 1}`} // Added alt for accessibility
             key={`${index}-clone`} // Unique key for duplicate set
           />
