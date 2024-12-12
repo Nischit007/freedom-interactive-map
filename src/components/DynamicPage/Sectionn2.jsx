@@ -82,7 +82,9 @@ return (
               viewport={{ once: false, amount: 0.5 }} // Trigger animation while scrolling
               className="font-normal md:text-xl text-base flex-wrap text-[#343434] tracking-tight inline-block text-justify"
             >
-              {item}<span className='text-white'>.</span>
+               <div className='flex flex-row gap-1'>
+              {item}<span className='text-white'> </span>
+              </div>
             </motion.span>
           ))}
         </div>
