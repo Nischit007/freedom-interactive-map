@@ -17,7 +17,7 @@ const DynamicPage = () => {
     
     useEffect(() => {
       // Fetch data from the API
-      axios.get(`map-backend-eight.vercel.app/api/locations/${id}`)
+      axios.get(`https://map-backend-eight.vercel.app/api/locations/${id}`)
         .then(response => {
           console.log('API response:', response.data); // Log the API response
           setLocation(response.data);
