@@ -13,7 +13,7 @@ const HeroSection = ({location}) => {
           
           {/* Content Overlay */}
           <div className="absolute ml-16 mt-32 space-y-5">
-            <h1 className="md:text-6xl text-4xl text-[#F5F5DC] font-bold">{location.momentIssue}</h1>
+            <h1 className="md:text-5xl text-4xl text-[#F5F5DC] font-bold">{location.momentIssue}</h1>
               <div>
             <span className="font-serif bg-[#9a1d20] text-[#EDEADE] px-3 py-1 md:text-2xl text-lg">
               {location.momentSubTitle}
