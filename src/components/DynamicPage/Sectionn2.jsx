@@ -54,13 +54,13 @@ return (
             <div className=' container flex justify-stretch flex-wrap md:gap-2'>
              
         <img
-          src={`map-backend-eight.vercel.app/uploads/${location.AboutImage1.replace('\\', '/')}`}
+          src={`https://map-backend-eight.vercel.app/uploads/${location.AboutImage1.replace('\\', '/')}`}
           className="md:h-72 md:w-72 w-32 h-32 object-cover border-4 border-white shadow-lg rounded-lg p-2"
           alt="Protest Scene"
         />
        
        
-        <img src={`map-backend-eight.vercel.app/uploads/${location.AboutImage2.replace('\\', '/')}`} className="md:h-60 md:w-60 w-32 h-32 object-cover mt-20 border-4 border-white shadow-lg rounded-lg p-2"
+        <img src={`https://map-backend-eight.vercel.app/uploads/${location.AboutImage2.replace('\\', '/')}`} className="md:h-60 md:w-60 w-32 h-32 object-cover mt-20 border-4 border-white shadow-lg rounded-lg p-2"
           alt="Protest Scene" />
         
           </div>
