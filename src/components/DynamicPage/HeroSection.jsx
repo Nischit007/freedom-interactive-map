@@ -7,7 +7,7 @@ const HeroSection = ({location}) => {
       <section>
         <div className="flex relative mt-5 h-[500px] w-full">
           {/* Background Image */}
-          <img src={`map-backend-eight.vercel.app/uploads/${location.heroSectionImage.replace('\\', '/')}`} className="md:w-full min-w-full h-full object-cover" alt="Background" />
+          <img src={`https://map-backend-eight.vercel.app/uploads/${location.heroSectionImage.replace('\\', '/')}`} className="md:w-full min-w-full h-full object-cover" alt="Background" />
           {/* Gradient Overlay */}
           <div className="absolute h-full w-full bg-gradient-to-r from-black/90 to-black/20"></div>
           
