@@ -11,7 +11,7 @@ const Sectionn2 = ({location}) => {
 return (
   <>
   <div className='flex-wrap overflow-x-hidden'>
-    <div className="border-t-[1px] border-zinc-300 mt-20 flex flex-wrap justify-between items-center ">
+    <div className="border-t-[1px] border-zinc-300 mt-20 flex flex-wrap justify-evenly items-center ">
       <div className="flex justify-stretch gap-96 mt-5">
         <h3 className="border rounded-xl p-2 ml-4 text-sm transition duration-300 ease-in-out hover:bg-[#9a1d20] hover:text-[#F5F5DC] cursor-pointer lg:block hidden">
           Empowering Youth
